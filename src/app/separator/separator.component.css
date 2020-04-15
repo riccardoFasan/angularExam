@@ -1,0 +1,7 @@
+.separator {
+    display: block;
+    margin: 30px auto 30px auto;
+    background-color: #E8E8E8;
+    height: 2px;
+    width: 100%;
+}

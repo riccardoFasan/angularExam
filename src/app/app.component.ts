@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'esameAngular';
+  toDos = ["Uccidere Tyrell Wellick", 
+"Hackerare la Evil Corp"];
+  toDo: string;
+
+  getInput(input:string){
+    this.toDo = input;
+    this.toDos.push(this.toDo);
+  }
 }
+
+

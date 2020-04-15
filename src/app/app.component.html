@@ -1,1 +1,6 @@
-<router-outlet></router-outlet>
+<main class="main">
+    <app-form (clicked)="getInput($event)"></app-form>
+    <app-separator></app-separator>
+    <app-check-list [toDos]="toDos"></app-check-list>
+</main>
+<!-- <router-outlet></router-outlet> -->
