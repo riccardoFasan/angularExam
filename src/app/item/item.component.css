@@ -1,6 +1,6 @@
 .span {
     display: block;
-    width: 1050px;
+    width: 1025px;
     height: 45px;
     line-height: 31px;
     border: none;
@@ -17,6 +17,14 @@
 
 .span--checked {
     text-decoration: line-through;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 125px;
 }
 
 .checkMark {
@@ -50,8 +58,8 @@
 .fa-trash {
     display: block;
     color: #E8E8E8;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     font-size: 20px;
     line-height: 20px;
     cursor: pointer;
