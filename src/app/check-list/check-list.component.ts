@@ -9,9 +9,6 @@ export class CheckListComponent implements OnInit {
 
   @Input() toDos: [];
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }

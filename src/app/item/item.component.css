@@ -1,0 +1,56 @@
+.itemContainer__span--notChecked {
+    display: block;
+    width: 1050px;
+    height: 45px;
+    line-height: 31px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 15px 7px 15px;
+    box-sizing: border-box;
+    background-color: #333333;
+    color: #E8E8E8;
+    text-decoration: none;
+}
+
+.itemContainer__span--checked {
+    display: block;
+    width: 1050px;
+    height: 45px;
+    line-height: 31px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 15px 7px 15px;
+    box-sizing: border-box;
+    background-color: #333333;
+    color: #E8E8E8;
+    text-decoration: none;
+    text-decoration: line-through;
+}
+
+.checkMark {
+    display: block;
+    height: 30px;
+    width: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    padding: 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #E8E8E8;
+}
+
+.fa-check {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #E8E8E8;
+}
+
+.checkMark:hover,
+.checkBox:checked~.checkMark {
+    background-color: #138066;
+}

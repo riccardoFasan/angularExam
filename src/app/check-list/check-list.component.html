@@ -1,7 +1,1 @@
-<div *ngFor="let toDo of toDos" class="itemContainer">
-    <span class="itemContainer__span">{{toDo}}</span>
-    <label for={{toDo}} class="checkboxLabel">
-        <input type="checkbox" id={{toDo}} class="checkBox" name={{toDo}} hidden>
-        <div class="checkMark"></div>
-    </label>
-</div>
+<app-item *ngFor="let toDo of toDos" [toDo]="[toDo]" class="itemContainer"></app-item>

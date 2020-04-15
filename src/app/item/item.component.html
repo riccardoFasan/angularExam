@@ -1,0 +1,6 @@
+<span *ngIf="marked === false" class="itemContainer__span--notChecked">{{toDo}}</span>
+<span *ngIf="marked === true" class="itemContainer__span--checked">{{toDo}}</span>
+<label for={{toDo}} class="checkboxLabel">
+    <input (click)="tickItem()" type="checkbox" id={{toDo}} class="checkBox" name={{toDo}} hidden>
+    <div class="checkMark"><i class="fas fa-check"></i></div>
+</label>

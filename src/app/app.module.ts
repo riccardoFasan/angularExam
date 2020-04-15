@@ -9,6 +9,7 @@ import { ButtonComponent } from './button/button.component';
 import { CheckListComponent } from './check-list/check-list.component';
 import { FormComponent } from './form/form.component';
 import { SeparatorComponent } from './separator/separator.component';
+import { ItemComponent } from './item/item.component';
 
 // Routes
 const appRoutes : Routes = [];
@@ -19,7 +20,8 @@ const appRoutes : Routes = [];
     ButtonComponent,
     CheckListComponent,
     FormComponent,
-    SeparatorComponent
+    SeparatorComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
