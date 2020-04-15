@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "esameAngular"
+    }
+  },
+  "defaultProject": "esameAngular",
+  "cli": {
+    "analytics": false
+  }
 }
