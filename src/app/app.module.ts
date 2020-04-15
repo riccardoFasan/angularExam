@@ -1,7 +1,6 @@
 // Angular Modules
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
 
 //Components
 import { AppComponent } from './app.component';
@@ -12,8 +11,7 @@ import { SeparatorComponent } from './separator/separator.component';
 import { ItemComponent } from './item/item.component';
 import { HeroComponent } from './hero/hero.component';
 
-// Routes
-const appRoutes : Routes = [];
+
 
 @NgModule({
   declarations: [
@@ -27,7 +25,6 @@ const appRoutes : Routes = [];
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
