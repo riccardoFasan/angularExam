@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { ToDosDataService } from '../to-dos-data.service';
 
 @Component({
   selector: 'app-check-list',
@@ -7,7 +8,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CheckListComponent implements OnInit {
 
-  @Input() toDos: [];
+  toDos = this.ToDosDataService.list;
+
+  constructor(private ToDosDataService: ToDosDataService){
+
+  };
 
   ngOnInit(): void {}
 

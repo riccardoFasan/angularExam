@@ -1,7 +1,10 @@
 .main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 1200px;
-    margin: 100px auto 0px auto;
-    background-color: #1D1D1D;
+    background-color: #0E0B14;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;

@@ -1,4 +1,4 @@
-.itemContainer__span--notChecked {
+.span {
     display: block;
     width: 1050px;
     height: 45px;
@@ -9,21 +9,13 @@
     box-sizing: border-box;
     background-color: #333333;
     color: #E8E8E8;
+}
+
+.span--notChecked {
     text-decoration: none;
 }
 
-.itemContainer__span--checked {
-    display: block;
-    width: 1050px;
-    height: 45px;
-    line-height: 31px;
-    border: none;
-    border-radius: 7px;
-    padding: 7px 15px 7px 15px;
-    box-sizing: border-box;
-    background-color: #333333;
-    color: #E8E8E8;
-    text-decoration: none;
+.span--checked {
     text-decoration: line-through;
 }
 
@@ -52,5 +44,20 @@
 
 .checkMark:hover,
 .checkBox:checked~.checkMark {
-    background-color: #138066;
+    background-color: #55C6CF;
+}
+
+.fa-trash {
+    display: block;
+    color: #E8E8E8;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fa-trash:hover {
+    color: #FF1C0D;
 }

@@ -1,4 +1,4 @@
-.form {
+.form__inputContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,4 +17,20 @@
     box-sizing: border-box;
     background-color: #E8E8E8;
     color: #333333;
+}
+
+.form__error {
+    display: none;
+    width: 1160px;
+    height: 45px;
+    line-height: 45px;
+    margin: 10px 0px 10px 0px;
+    color: #FF1C0D;
+    border: 1px solid #FF1C0D;
+    border-radius: 7px;
+    background-color: #FFD090;
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 18px;
 }

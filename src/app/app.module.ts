@@ -10,6 +10,7 @@ import { CheckListComponent } from './check-list/check-list.component';
 import { FormComponent } from './form/form.component';
 import { SeparatorComponent } from './separator/separator.component';
 import { ItemComponent } from './item/item.component';
+import { HeroComponent } from './hero/hero.component';
 
 // Routes
 const appRoutes : Routes = [];
@@ -21,7 +22,8 @@ const appRoutes : Routes = [];
     CheckListComponent,
     FormComponent,
     SeparatorComponent,
-    ItemComponent
+    ItemComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
