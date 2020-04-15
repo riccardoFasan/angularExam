@@ -19,7 +19,7 @@ export class FormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getInputValue(input:string){
+  getInputValue(input:string, form){
     this.toDo = input;
     if(!this.toDos.includes(String(this.toDo)) && String(this.toDo) !== ""){
       this.toDos.push(this.toDo);
@@ -29,5 +29,6 @@ export class FormComponent implements OnInit {
         document.getElementById("error").style.display = "none";
       }, 2500);
     }
+    form.reset();
   }
 }
